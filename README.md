@@ -30,6 +30,8 @@ If there is better choice, such as etch is available in your page, we suggest yo
     html.ornt-landscape foobar{} /* in landscape mode */
     html.device-pixelrate-1 foobar{} /* default image quality */
     html.device-pixelrate-1.5 foobar{} /* hi-resolution quality image for retina screen */
+    
+For more, check out https://github.com/ETUI/ETUI/blob/master/lib/etch/tagger.js
   
 However if there is no tagger available in your page, 
 we suggest to targeting browser smartly by using superior syntax that older browser doesn't support:
@@ -97,4 +99,14 @@ A replacement for :first-child for older browser such as IE6
 ###et-inner
 
 ###et-outer
-et-cnt
+
+###et-cnt
+The actuall content area (wrapping the text)
+
+##Form elements
+
+###et-field
+The wrapping element
+
+###et-field-text
+The text input area
