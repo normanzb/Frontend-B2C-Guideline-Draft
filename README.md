@@ -50,3 +50,51 @@ The last choice, CSS Hacks:
     @media all and (-webkit-min-device-pixel-ratio:0) { .webkit{property:value;} }
     @media all and (-webkit-min-device-pixel-ratio:10000),not all and (-webkit-min-device-pixel-ratio:0) { .opera{property:value;} }
     @media screen and (max-device-width: 480px) { .iphone-or-mobile-s-webkit{property:value;} }
+
+#Common CSS classes
+
+##State indicateors
+
+###et-active
+Indicate current tab/slide/whatelse is in active state.
+
+###et-disabled
+Indicate current ui component is disabled.
+
+###et-enabled
+Indicate current ui component is enabled.
+
+###et-error
+Indicate the validation failed on current element
+
+##Pseudo Class Replacement
+
+###et-first
+A replacement for :first-child for older browser such as IE6
+
+###et-last
+
+##Position Indicator
+
+###et-opening
+
+###et-closing
+
+###et-north
+
+###et-south
+
+###et-west
+
+###et-east
+
+##DOM Structure Indicator
+
+###et-top
+
+###et-bottom
+
+###et-inner
+
+###et-outer
+et-cnt
