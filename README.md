@@ -113,5 +113,13 @@ The text input area
 
 #JavaScript 
 
-1. Try best not to pollute global object, including but not limited to `window`, built in objects and their prototypes, `jQuery.fn` ...
-2. If you do need to expose an global object, make sure it is understand proper name space, for example, `etPage.project.page.func`
+##Rules
+
+1. Try best not to pollute global object, including but not limited to `window`, 
+   built in objects and their prototypes, `jQuery.fn` ...
+2. If you do need to expose an global object, make sure it is understand proper name space, 
+   for example, `etPage.project.page.func`
+3. JS files in under rootapp is meant to be shared across project, 
+   you can reference to it directly in your project. 
+   The other js files are not meant to be shared by the other project. If you want to use a file from
+   the other project, please make a copy of that to your own project directory.
