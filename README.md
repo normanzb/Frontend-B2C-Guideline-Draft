@@ -125,3 +125,19 @@ The text input area
    you can reference to it directly in your project. 
    The other js files are not meant to be shared by the other projects. If you do want to use a file from
    the other project, please make a copy of that to your own project directory.
+
+##Naming convention
+
+    1. lowerCamelCase for local variables or namespace.
+
+    2. UPPER_CASE_FOR_CONSTANTS
+
+    3. prefix with _underline for virtual member or private member
+
+    4. Recommand to use ''var prvt = {}'' in your closure to holds all private methods.
+
+    5. Small **simple** words for namespaces.
+
+    6. Add prefix $ to jQuery object.
+
+    7. UpperCamelCase for constructors.
