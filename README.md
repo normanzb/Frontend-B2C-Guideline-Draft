@@ -110,3 +110,8 @@ The wrapping element
 
 ###et-field-text
 The text input area
+
+#JavaScript 
+
+1. Try best not to pollute global object, including but not limited to `window`, built in objects and their prototypes, `jQuery.fn` ...
+2. If you do need to expose an global object, make sure it is understand proper name space, for example, `etPage.project.page.func`
