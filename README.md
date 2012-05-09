@@ -8,6 +8,8 @@
 
 #CSS Hacks?
 
+If you requirement can be done by using [css media query](http://www.w3.org/TR/css3-mediaqueries/), then use it.
+
 If there is better choice, such as etch is available in your page, we suggest you targeting browser this way:
 
     html.msie6 foobar {}
@@ -115,11 +117,11 @@ The text input area
 
 ##Rules
 
-1. Try best not to pollute global object, including but not limited to `window`, 
+1. Try best not to pollute global object, including but not limits to `window`, 
    built in objects and their prototypes, `jQuery.fn` ...
 2. If you do need to expose an global object, make sure it is understand proper name space, 
    for example, `etPage.project.page.func`
-3. JS files in under rootapp is meant to be shared across project, 
+3. JS files in under rootapp (/_scripts/, /widgets/) are meant to be shared across project, 
    you can reference to it directly in your project. 
-   The other js files are not meant to be shared by the other project. If you want to use a file from
+   The other js files are not meant to be shared by the other projects. If you do want to use a file from
    the other project, please make a copy of that to your own project directory.
