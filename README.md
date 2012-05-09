@@ -128,16 +128,16 @@ The text input area
 
 ##Naming convention
 
-    1. lowerCamelCase for local variables or namespace.
+1. lowerCamelCase for local variables or namespace.
 
-    2. UPPER_CASE_FOR_CONSTANTS
+2. UPPER_CASE_FOR_CONSTANTS
 
-    3. prefix with _underline for virtual member or private member
+3. prefix with _underline for virtual member or private member
 
-    4. Recommand to use ''var prvt = {}'' in your closure to holds all private methods.
+4. Recommand to use ''var prvt = {}'' in your closure to holds all private methods.
 
-    5. Small **simple** words for namespaces.
+5. Small **simple** words for namespaces.
 
-    6. Add prefix $ to jQuery object.
+6. Add prefix $ to jQuery object.
 
-    7. UpperCamelCase for constructors.
+7. UpperCamelCase for constructors.
