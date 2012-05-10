@@ -5,6 +5,9 @@
 * http://www.stevesouders.com/blog/2009/04/09/dont-use-import/ 
 * Use <style /> Only if it is used for single page.
 * NO inline CSS pls! 
+* No horizontal scrollbar in your code editor:
+  that means, if the statement is too long, break it to into multiple lines, try utilize vertical space
+  as much as you can.
 
 #CSS Hacks?
 
