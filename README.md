@@ -134,7 +134,7 @@ The text input area
    so in order to avoid from above issues, we suggest:
    1. Try load the api asynchronously rather than put the <script /> tag directly into page.
    2. If the api provider does not support asynchronously loading, e.g. there are document.write() inside the js file
-      so it will break our page if we load it asynchronously, we should consider copy the js file to our server, or use 
+      so it breaks our page if we load it asynchronously, we should consider copy the js file to our server, or use 
       an <iframe /> to wrap the content.
 
 ##Naming convention
