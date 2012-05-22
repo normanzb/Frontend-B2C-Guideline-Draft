@@ -128,7 +128,7 @@ The text input area
    you can reference to it directly in your project. 
    The other js files are not meant to be shared by the other projects. If you do want to use a file from
    the other project, please make a copy of that to your own project directory.
-4. If you want to reference a 3rd party javascript file, keep in mind that those api provider may not always available
+4. If you want to reference 3rd party javascript files, keep in mind that those api providers may not always available
    due to network or server maintenance issue. for example, if you are in China mainland, than you probably won't have
    access to youtube.com and some google apis.
    so in order to avoid from above issues, we suggest:
