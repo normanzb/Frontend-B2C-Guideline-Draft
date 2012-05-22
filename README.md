@@ -129,7 +129,7 @@ The text input area
    The other js files are not meant to be shared by the other projects. If you do want to use a file from
    the other project, please make a copy of that to your own project directory.
 4. If you want to reference 3rd party javascript files, keep in mind that those api providers may not always available
-   due to network or server maintenance issue. for example, if you are in China mainland, than you probably won't have
+   due to network or server maintenance issue. for example, if you are in China mainland, than you wouldn't have
    access to youtube.com and some google apis.
    so in order to avoid from above issues, we suggest:
    1. Try load the api asynchronously rather than put the <script /> tag directly into page.
