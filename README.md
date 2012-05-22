@@ -132,10 +132,10 @@ The text input area
    due to network or server maintenance issue. for example, if you are in China mainland, than you wouldn't have
    access to youtube.com and some google apis.
    so in order to avoid from above issues, we suggest:
-   1. Try load the api asynchronously rather than put the `&lt;script /&gt;` tag directly into page.
+   1. Try load the api asynchronously rather than put the `<script />` tag directly into page.
    2. If the api provider does not support asynchronously loading, e.g. there are document.write() inside the js file
       so it breaks our page if we load it asynchronously, we should consider copy the js file to our server, or use 
-      an `&lt;iframe /&gt;` to wrap the content.
+      an `<iframe />` to wrap the content.
 
 ##Naming convention
 
