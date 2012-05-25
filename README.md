@@ -116,6 +116,10 @@ The wrapping element
 ###et-field-text
 The text input area
 
+## Modules
+
+### borderable
+
 #JavaScript 
 
 ##Rules
