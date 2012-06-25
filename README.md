@@ -62,8 +62,11 @@ The last choice, CSS Hacks:
 
 Using em carefully, generally it should be used for 2 purposes:
 
-1.  In IE, there is an option to change text size, using em allowing user to change the text size by using that option in IE. If you fix the font size with px or pt, the text size will not change when user changed the option, 
-but keep in mind that it also break  your layout when the original ‘design’ is fixed or your didn’t properly make your html structure flexible enough.
+1.  In IE, there is an option to change text size, 
+using em allowing user to change the text size in web page by using that option in IE. 
+Vice versa, if you fixed the font size with `px` or `pt`, the text size will not change when user changed the option. 
+**but keep in mind that it also break  your layout when the original ‘design’ is fixed 
+or your didn’t properly make your html structure flexible enough.**
 for example, in current global SP, if you look at the 3 step section, the background is fixed size, that means once you enlarge the font size your layout will be broken.
 In modern browser other than IE, people simply zoom in the whole page rather than just text so there is no such problem
 2.	Em is better for code maintenance, says if title font size is always 2 times of normal text size, why no set title font size to 2em? Once you modified the text size, title size will be automatically changed also.
