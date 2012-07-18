@@ -154,6 +154,9 @@ The text input area
    2. If the api provider does not support asynchronously loading, e.g. there are document.write() inside the js file
       so it breaks our page if we load it asynchronously, we should consider copy the js file to our server, or use 
       an `<iframe />` to wrap the content.
+5. Never add script that linked to ETFileMergeHandler.ashx? manually, script that starts with ETFileMergeHandler.ashx? 
+   usually means it is merged automatically together by backend service, adding the merged link means adding a lot of 
+   script that unnecessary for current page and very error-prone.
 
 ##Naming convention
 
